@@ -11,8 +11,8 @@ from operator import index
 import pandas as pd
 
 auth = tweepy.OAuth1UserHandler(
-   "g1h8PXPJR7z2WQIshDE9snl7e", "iZGdLQwjMzvPnBUkDv2MtPqb5EVaVeWSaVhu0RYTs1QlXOwXTR",
-   "1577041170701914112-DjLTKFD5ZocjH7M045Oc9KRP61joBO", "IhwF1kMP9PSjwfLdwtJUkwsjPwAcEnJe26tyXnSWR7Wn2"
+   "***************", "************************************",
+   "**********************************", "******************************************************"
 )
 
 api = tweepy.API(auth, wait_on_rate_limit=False)
