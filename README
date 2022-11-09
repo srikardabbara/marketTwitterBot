@@ -1,0 +1,24 @@
+This is a twitter bot that tweets updates specific stock market updates that the common investor would be interested in.
+
+Features:
+    1. Every morning at market open + 1 minute, tweet the current price of each index and the change
+    Any time there is a big change to a stock in the market tweet out the name of the stock and what the change was
+    2. Anytime a stock moves more than 5% it will tweet the ticket and delta to alert users of a big move
+
+Goal:
+    The goal of this tiwtter bot is to aid causal, long term, investors such as myself who don't necessarily follow the news or markets to get alerts 
+    for any significant news we may be interested in. It also helps users keep track of stocks as they may not be aware of any big changes to a stock in their 
+    portfolio unless they are intentional with it.
+
+Usage Examples:
+    You own stock XYZ in your portfolio. News came out about a big investment XYZ came out with and is causing the stock to skyrocket. 
+    Unless you are activley following news about XYZ or were checking your portfolio that day and saw XYZ climing, you may have missed your 
+    opportunity to sell/buy more of XYZ. With post notifications on however, you can get alerted that XYZ gained more than 5% as soon as it 
+    breaks that mark and act upon it. 
+    
+    You have cash waiting around and are trying to figure out when the best time to invest is. Getting the alert every morning allows you to 
+    know wether the market is up or down without having to go onto a website or check yourself. 
+
+    You have cash and not sure what stock to invest in. twitter bot allows you to activley monitor big movers to see if a stock is down significantly 
+    that you may want to buy while low. Or you want to hop on the train of a stock that is trending significantly upward it allows you to do that as well. 
+    
