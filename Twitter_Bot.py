@@ -121,7 +121,7 @@ morning_tweet = 'The S&P500 is currently at: ' + (SP500_price) + " " + (SP500_ch
 if 930 == dt_east:
     api.update_status(morning_tweet)
 
-while market_open is False:
+while market_open is True:
     for i, row in df.iterrows():
         if row['Chg % 1D'] > 7:
             ticker_name   = row['Ticker']
