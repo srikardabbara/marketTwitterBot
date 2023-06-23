@@ -10,6 +10,7 @@ import pytz
 from operator import index
 import pandas as pd
 
+#Accessing twitter API. Blocking out IP info with '*'
 auth = tweepy.OAuth1UserHandler(
    "***************", "************************************",
    "**********************************", "******************************************************"
