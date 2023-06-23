@@ -122,6 +122,7 @@ morning_tweet = 'The S&P500 is currently at: ' + (SP500_price) + " " + (SP500_ch
 if 930 == dt_east:
     api.update_status(morning_tweet)
 
+#Method to tweet out anytime a stock moves more than 7%
 while market_open is True:
     for i, row in df.iterrows():
         if row['Chg % 1D'] > 7:
